@@ -1,0 +1,121 @@
+/* Configurações gerais 
+___________________________________________________________________________________________________________*/
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body#index {
+    background: url(../img/fundo.png);
+}
+
+body#quem_somos, 
+body#contato {
+    background: url(../img/fundo2.png);
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(56, 63, 93);
+}
+
+/* Configurações de header 
+___________________________________________________________________________________________________________*/
+/* Configurações da tag header que esta dentro da tag main */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 104px;
+}
+
+/* Configurações de h1 que está dentro do id logo */
+h1 {
+    background: url(../img/logo.png) no-repeat;
+    width: 215px;
+    height: 65px;
+    text-indent: -3000px;
+}
+
+/* Configurações da tag ul que está dentro da tag header */
+nav ul {
+    float: left;
+}
+
+/* Configurações da tag li que está dentro da tag header */
+nav ul li{
+    float: left;   
+}
+
+/* Configurações da tag a que está dentro da tag header */
+nav ul li a:link,
+nav ul li a:visited, 
+nav ul li a:active{
+    margin: 2px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background:rgb(56, 63, 93);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Configurações de caontainer
+___________________________________________________________________________________________________________*/
+/* Configurações da tag h2 que está dentro do id container */
+#index #container h2 {
+    border-bottom: 1px solid rgb(56, 63, 93);
+}
+
+#quem_somos #container h2,
+#index #container h2 {
+    color: rgb(56, 63, 93);
+}
+
+/* Configurações do id motivos que está dentro do id container */
+section#motivos {
+    border-bottom: 1px solid rgb(56, 63, 93);
+    padding-bottom: 5px;
+}
+
+/* Configurações da tag ul que esta dentro do id motivos */
+#motivos ul {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Configurações da tag p que está dentro do id container */
+#container p {
+    text-align: justify;
+}
+
+/* COnfigurações da tag label que esta dentro do id container */
+#container label{
+    display: block;
+}
+
+#container input {
+    margin-bottom: 10px;
+}
+
+/* Configurações de footer
+___________________________________________________________________________________________________________*/
+/* Configurações da tag h4 que está dentro da tag footer */
+footer h4 {
+    text-align: center;
+    border-top: 1px solid rgb(56, 63, 93);
+    padding-top: 15px;
+}
